@@ -1,0 +1,24 @@
+Modulo 3
+https://www.youtube.com/playlist?list=PLHz_AreHm4dmcAviDwiGgHbeEJToxbOpZ
+
+Material de apoio em PDF:
+https://github.com/gustavoguanabara/html-css/tree/master/aulas-pdf
+
+Desafios:
+https://github.com/gustavoguanabara/html-css/tree/master/desafios/modulo-03
+
+
+/* ------------------------------------------------------------------------ */
+Fontes externas baixadas do site
+https://www.dafont.com/pt/
+
+
+Extensão do chrome (Fonts Ninja) pra baixar Fontes:
+https://chrome.google.com/webstore/detail/fonts-ninja/eljapbgkmlngdpckoiiibecpemleclhh
+
+
+Extensão do chrome (Colorzilla) pra verificar as cores de qualquer site:
+https://chrome.google.com/webstore/detail/colorzilla/bhlhnicpbhignbdhedgjhgdocnmhomnp
+
+Site onde o professor monta o esqueleto do site do modulo 2/desafio 10:
+https://www.mockflow.com/
