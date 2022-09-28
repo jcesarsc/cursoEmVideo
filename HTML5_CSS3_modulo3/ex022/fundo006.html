@@ -7,11 +7,22 @@
     <title>Resolvendo o problema das imagens de fundo</title>
     <style>
         body {
-            background-image: url(imagens/wallpaper002.jpg);
-            background-color: black;
             height: 100vh;
+            /* background-color: black;
+            background-image: url(imagens/wallpaper002.jpg);
+            background-position: center center;
+            background-repeat: no-repeat;
             background-size: cover;
-            background-repeat: repeat-y;
+            background-attachment: fixed; */
+
+            /* shorthand - background
+                ordem que deve ser colocada:
+                color > image > position > repeat > size* > attachment
+
+                O atributo size pela explicação do professor nao funcionou ate o momento e portanto deve ser feita sua declaração separado, conforme abaixo.
+             */
+             background: black url(imagens/wallpaper002.jpg) center center no-repeat fixed;
+             background-size: cover;
         }
 
         main {
