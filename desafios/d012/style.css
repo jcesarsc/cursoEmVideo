@@ -7,6 +7,11 @@
   padding: 0;
 }
 
+html,
+body {
+  min-height: 100vh;
+}
+
 :root {
   --fonte1: Verdana, Geneva, Tahoma, sans-serif;
   --fonte2: "Passion One", cursive;
@@ -15,6 +20,7 @@
 
 a {
   text-decoration: none;
+  font-weight: bolder;
   color: white;
 }
 
@@ -23,37 +29,56 @@ a:hover {
 }
 
 main {
-  background-image: url(imagens/background001.jpg);
+  /* background-image: url(imagens/background001.jpg); */
   background-attachment: scroll;
   background-repeat: no-repeat;
   background-size: contain;
 }
 
 header {
-  /* font-family: "Passion One", cursive; */
+  background-color: black;
   font-family: var(--fonte2);
+  font-variant: small-caps;
   font-size: 60px;
   font-style: normal;
   font-weight: bold;
   text-align: center;
-  background-color: black;
   color: white;
-  padding-top: 40px;
+  padding-top: 50px;
   height: 200px;
 }
 
-header p {
+header > p {
   font-family: var(--fonte1);
   font-size: medium;
   text-align: center;
   background-color: black;
   color: white;
-  /* padding-bottom: 20px; */
+  padding-bottom: 50px;
 }
 
-p {
+section {
   font-family: var(--fonte3);
-  font-size: 3em;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  /* font-size: 7vh; */
+  line-height: 2em;
+  padding-left: 30px;
+}
+
+section.normal {
+  background-color: white;
+  color: black;
+}
+
+section.imagem {
+  background-color: gray;
+  color: white;
+}
+
+section.imagem > p {
+  background-color: rgb(0, 0, 0, 0.253);
+  width: 400px;
 }
 
 footer {
